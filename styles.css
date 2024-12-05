@@ -334,3 +334,27 @@ footer .socials img:hover {
 .exam-table a:hover {
     color: #0056b3;
 }
+
+/* Styling for Exam Buttons */
+.exam-button {
+    display: inline-block;
+    background-color: #274a97; /* Deep blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Spacing inside the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.exam-button:hover {
+    background-color: #193566; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+    text-decoration: none; /* Ensure no underline appears on hover */
+}
+
+.exam-item h3 {
+    margin-bottom: 10px; /* Add space between title and button */
+    color: #333; /* Darker title text */
+}
