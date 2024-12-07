@@ -16,6 +16,33 @@ body {
     color: #333;
 }
 
+/* Ensure button is positioned near the top left */
+.prev-button-container {
+    position: absolute; /* Enables precise positioning */
+    top: 10px; /* Adjust to place it below the navigation bar */
+    left: 20px; /* Adjust distance from the left edge */
+    z-index: 100; /* Keeps it above other elements if needed */
+    margin: 0; /* Removes any unintended spacing */
+}
+
+.prev-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #274a97;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.prev-button:hover {
+    background-color: #193566;
+    transform: scale(1.05);
+}
+
 header {
     background-color: #274a97;
     color: white;
