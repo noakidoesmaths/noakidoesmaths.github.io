@@ -1,13 +1,3 @@
-Hey Noaki, I just left this text file to tell you what I changed. Feel free to delete this file if you want.
+Hey Naoki,
 
-I changed main.html to index.html, otherwise GitHub will not deploy your website.
-
-I changed the styles so that the footer is always at the bottom so even if you don't have much content
-between the header and footer, the footer will still be at the bottom. I did this by using flex display properties.
-You can search up what they are.
-
-I also just restructured the code so it is easier to navigate.
-
-I won't change too much, I'll just occasionally have a look at the code and make it tidier.
-
-Have fun coding big bro!
+Fixed the little gap on the home page between the content and the footer
