@@ -76,6 +76,26 @@ nav .nav-buttons a {
     transition: background-color 0.3s, color 0.3s;
 }
 
+nav .nav-triangle {
+    width: 100vw;
+    height: 3vh;
+
+    border: none;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav .nav-triangle .triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid rgb(255, 255, 255);
+}
+
 nav a:hover {
     background-color: white;
     color: #274a97;
