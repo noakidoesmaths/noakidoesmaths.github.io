@@ -1,3 +1,3 @@
 Hey Naoki,
 
-Fixed the little gap on the home page between the content and the footer
+Added dropdown menu for mobile layout!
